@@ -1,8 +1,8 @@
+
 ---
 name: dst-mod-development
 description: Build, debug and publish Don't Starve Together mods. Use when the user wants to write a DST mod, add recipes or prefabs, make mod art or icons, hook another mod, diagnose a DST crash or a server that will not start, or upload to the Steam Workshop.
 ---
-
 DST punishes reasoning from first principles. Almost every bug in a new mod is a
 platform convention you cannot deduce — a missing global, a load-order rule, a
 client/server split. So the governing move is **precedent**: before writing
@@ -128,9 +128,7 @@ AddRecipe2(name, {Ingredient("boards", 3)}, TECH.SCIENCE_TWO, {
 }, { "COOKING", "STRUCTURES" })
 ```
 
-Filter names (`recipes_filter.lua`): `TOOLS LIGHT PROTOTYPERS REFINE WEAPONS
-ARMOUR CLOTHING RESTORATION MAGIC DECOR STRUCTURES CONTAINERS COOKING GARDENING
-FISHING SEAFARING RIDING WINTER SUMMER RAIN CHARACTER`.
+Filter names (`recipes_filter.lua`): `TOOLS LIGHT PROTOTYPERS REFINE WEAPONS ARMOUR CLOTHING RESTORATION MAGIC DECOR STRUCTURES CONTAINERS COOKING GARDENING FISHING SEAFARING RIDING WINTER SUMMER RAIN CHARACTER`.
 
 `nounlock` recipes are auto-filed under `CRAFTING_FILTERS.CRAFTING_STATION`,
 which only surfaces for prototypers whose `PROTOTYPER_DEFS` entry has
@@ -172,12 +170,10 @@ renders as a giant flat plane.
 ```
 
 KTEX header, verified byte-identical against Klei's own files: magic `KTEX`,
-then one `<I` bitfield — `platform(4) | pixel_format(5) | texture_type(4) |
-mipmap_count(5) | flags(2) | remainder(12)` — with `pixel_format=2` (DXT5),
+then one `<I` bitfield — `platform(4) | pixel_format(5) | texture_type(4) | mipmap_count(5) | flags(2) | remainder(12)` — with `pixel_format=2` (DXT5),
 `texture_type=1` (2D), `flags=3`, `remainder=0xFFF`; then one `<HHHI` record per
 mip (`width, height, pitch = width*4, datasize`); then the mip payloads. Produce
-DXT5 with `magick in.png -define dds:compression=dxt5 -define dds:mipmaps=0
-out.dds` and strip the 128-byte DDS header. Flip the image vertically first —
+DXT5 with `magick in.png -define dds:compression=dxt5 -define dds:mipmaps=0 out.dds` and strip the 128-byte DDS header. Flip the image vertically first —
 Klei's tools do.
 
 ## Verification
@@ -202,11 +198,11 @@ file with `Prefab`/`MakePlacer` stubbed to count returned values.
 
 ## Reading failures
 
-| symptom | file to read |
-|---|---|
-| server will not start | `~/.klei/DoNotStarveTogether/<id>/Cluster_1/Master/backup/server_log/*.txt` |
-| client crash / UI error | `~/.klei/DoNotStarveTogether/client_log.txt` |
-| mod loaded at all? | grep the log for the mod's folder name |
+| symptom                 | file to read                                                                  |
+| ----------------------- | ----------------------------------------------------------------------------- |
+| server will not start   | `~/.klei/DoNotStarveTogether/<id>/Cluster_1/Master/backup/server_log/*.txt` |
+| client crash / UI error | `~/.klei/DoNotStarveTogether/client_log.txt`                                |
+| mod loaded at all?      | grep the log for the mod's folder name                                        |
 
 **The live `server_log.txt` is overwritten by the next successful start**, so a
 failed boot is only in `backup/server_log/`. Grep for `MOD ERROR`, `LUA ERROR`,
