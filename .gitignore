@@ -1,0 +1,7 @@
+# Timestamped safety backups taken before risky edits. Git now provides
+# history, so these are redundant going forward.
+*.bak/
+*.bak
+
+# NOTE: *.snippet files ARE tracked on purpose - they are the rebuild path for
+# the ~307 generated R Command entries if the mod's save data is ever wiped.

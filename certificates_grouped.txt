@@ -1,0 +1,275 @@
+饥荒联机版《能力勋章》勋章证书一览 (Don't Starve Together — Ability Medal Certificates)
+来源 / Source: https://www.guanziheng.com/
+用法 / Usage: 在游戏内控制台输入 c_give 命令即可获得对应勋章。
+           Open the in-game console (~ key) and enter the c_give command to spawn the medal.
+按主题分组 / Grouped by theme. 总计 / Total items: 217
+======================================================================
+
+【A】人生百味 (Flavors of Life)  (19)
+----------------------------------------------------------------------
+  c_give("chef_certificate",1);   -- 大厨勋章
+  c_give("cook_certificate",1);   -- 烹饪勋章
+  c_give("headchef_certificate",1);   -- 主厨勋章   [also: Q]
+  c_give("medal_cookpot",1);   -- 红晶锅   [also: M]
+  c_give("medal_fishbones",1);   -- 鱼骨
+  c_give("spice_blood_sugar",1);   -- 血糖
+  c_give("spice_cactus_flower",1);   -- 仙人掌花粉
+  c_give("spice_jelly",1);   -- 果冻粉
+  c_give("spice_mandrake_jam",1);   -- 曼德拉果酱
+  c_give("spice_moontree_blossom",1);   -- 月树花粉
+  c_give("spice_phosphor",1);   -- 荧光粉
+  c_give("spice_plantmeat",1);   -- 叶肉酱
+  c_give("spice_pomegranate",1);   -- 山力叶酱
+  c_give("spice_poop",1);   -- 秘制酱料
+  c_give("spice_potato_starch",1);   -- 土豆淀粉
+  c_give("spice_rage_blood_sugar",1);   -- 黑暗血糖   [also: P]
+  c_give("spice_soul",1);   -- 灵魂佐料
+  c_give("spice_voltjelly",1);   -- 带电果冻粉
+  c_give("spices_box",1);   -- 调料盒   [also: M]
+
+【B】正义的伙伴 (Partners of Justice / Combat)  (9)
+----------------------------------------------------------------------
+  c_give("arrest_certificate",1);   -- 逮捕勋章
+  c_give("bosom_friend_certificate",1);   -- 挚友勋章
+  dm_gifts()   -- 遗失包裹   [also: F]
+  c_give("friendly_certificate",1);   -- 友善勋章
+  c_give("justice_certificate",1);   -- 正义勋章   [also: F,Q]
+  c_give("medal_monster_essence",1);   -- 怪物精华   [also: F]
+  c_give("valkyrie_certificate",1);   -- 女武神勋章   [also: Q]
+  c_give("valkyrie_examine_certificate",1);   -- 女武神的检验
+  c_give("valkyrie_test_certificate",1);   -- 女武神的考验
+
+【C】勤能补拙 (Diligence Makes Up for Dullness)  (29)
+----------------------------------------------------------------------
+  c_give("closed_book",1);   -- 无字天书
+  c_give("handy_certificate",1);   -- 巧手勋章   [also: Q]
+  c_give("handy_test_certificate",1);   -- 巧手考验勋章
+  c_give("largechop_certificate",1);   -- 高级伐木勋章   [also: Q]
+  c_give("largeminer_certificate",1);   -- 高级矿工勋章   [also: Q]
+  c_give("marbleaxe",1);   -- 大理石斧头
+  c_give("marblepickaxe",1);   -- 大理石镐
+  c_give("medal_box",1);   -- 勋章盒   [also: M]
+  c_give("medal_clear_up_bomb",1);   -- 放晴弹
+  c_give("medal_farm_plow_item",1);   -- 高效耕地机
+  c_give("medal_rain_bomb",1);   -- 催雨弹
+  c_give("medal_spacetime_bomb",1);   -- 时空弹   [also: L]
+  c_give("medal_statue_marble_blackegg",1);   -- 大黑蛋子雕像   [also: M]
+  c_give("medal_statue_marble_changeable",1);   -- 百变雕像   [also: M]
+  c_give("medal_statue_marble_gugugu",1);   -- 大帅鸽雕像   [also: M]
+  c_give("medal_statue_marble_potting",1);   -- 大理石盆栽   [also: M]
+  c_give("medal_statue_marble_saltfish",1);   -- 咸鱼雕像   [also: M]
+  c_give("medal_statue_marble_stupidcat",1);   -- 猫猫雕像   [also: M]
+  c_give("medal_waterpump",1);   -- 手摇深井泵   [also: M]
+  c_give("medal_waterpump_item",1);   -- 深井泵套件
+  c_give("mediumchop_certificate",1);   -- 中级伐木勋章
+  c_give("mediumminer_certificate",1);   -- 中级矿工勋章
+  c_give("smallchop_certificate",1);   -- 初级伐木勋章
+  c_give("smallminer_certificate",1);   -- 初级矿工勋章
+  c_give("toil_money",1);   -- 血汗钱
+  c_give("trapreset_book",1);   -- 陷阱重置册
+  c_give("wisdom_certificate",1);   -- 智慧勋章   [also: Q]
+  c_give("wisdom_test_certificate",1);   -- 蒙昧勋章
+  c_give("xinhua_dictionary",1);   -- 新华字典
+
+【D】生命与月光 (Life and Moonlight)  (21)
+----------------------------------------------------------------------
+  c_give("bottled_moonlight",1);   -- 瓶装月光
+  dm_allscions()   -- 植物接穗
+  dm_alltrees()   -- 嫁接树
+  c_give("harvest_certificate",1);   -- 丰收勋章   [also: Q]
+  c_give("lureplant_rod",1);   -- 食人花手杖   [also: M]
+  c_give("mandrake_seeds",1);   -- 曼德拉种子
+  c_give("mandrakeberry",1);   -- 曼德拉果
+  c_give("medal_buried_greengem",1);   -- 生命绿宝石
+  c_give("medal_ivy",1);   -- 旋花藤
+  c_give("medal_livingroot_chest",1);   -- 树根宝箱   [also: M,E]
+  c_give("medal_moonglass_bugnet",1);   -- 月光玻璃网
+  c_give("medal_moonglass_hammer",1);   -- 月光玻璃锤
+  c_give("medal_moonglass_potion",1);   -- 月光药水
+  c_give("medal_moonglass_shovel",1);   -- 月光玻璃铲
+  c_give("medal_moonlight_staff",1);   -- 月光法杖   [also: M]
+  c_give("medal_weed_seeds",1);   -- 杂草种子
+  c_give("medal_wormwood_flower",1);   -- 虫木花
+  c_give("medaldug_fruit_tree_stump",1);   -- 砧木桩
+  c_give("medaldug_livingtree_root",1);   -- 活木树苗
+  c_give("plant_certificate",1);   -- 虫木勋章
+  c_give("transplant_certificate",1);   -- 植物勋章   [also: Q]
+
+【E】不朽之谜 (Mystery of Immortality)  (11)
+----------------------------------------------------------------------
+  c_give("bearger_chest",1);   -- 熊皮宝箱   [also: M]
+  c_give("immortal_book",1);   -- 不朽之谜
+  c_give("immortal_essence",1);   -- 不朽精华
+  c_give("immortal_fruit",1);   -- 不朽果实
+  c_give("immortal_fruit_oversized",1);   -- 巨型不朽果实
+  c_give("immortal_fruit_seed",1);   -- 不朽种子
+  c_give("immortal_gem",1);   -- 不朽宝石
+  c_give("immortal_staff",1);   -- 不朽法杖   [also: M]
+  c_give("medal_glassblock",1);   -- 不朽晶柱   [also: L]
+  c_give("medal_nitrify_tree",1);   -- 硝化树
+  c_give("medal_shroom_chest",1);   -- 蛤皮宝箱   [also: M]
+
+【F】遗失与传承 (Lost and Inheritance)  (33)
+----------------------------------------------------------------------
+  c_give("autotrap_book",1);   -- 智能陷阱制作手册
+  c_give("blank_certificate",1);   -- 空白勋章
+  c_give("blue_crystal_certificate",1);   -- 蓝晶勋章   [also: G,Q]
+  c_give("down_filled_coat",1);   -- 羽绒服   [also: M]
+  c_give("down_filled_coat_certificate",1);   -- 羽绒勋章   [also: Q]
+  c_give("hat_blue_crystal",1);   -- 蓝晶帽   [also: M]
+  c_give("inherit_certificate",1);   -- 传承勋章
+  c_give("large_multivariate_certificate",1);   -- 高级融合勋章
+  c_give("medal_desert_nucleus",1);   -- 沙之晶核   [also: L]
+  c_give("medal_glommer_essence",1);   -- 格罗姆精华
+  c_give("medal_goathat",1);   -- 羊角帽   [also: M]
+  c_give("medal_inherit_page",1);   -- 传承书页
+  c_give("medal_naughty_krampus",1);   -- 复仇坎普斯
+  c_give("medal_naughtybell",1);   -- 淘气铃铛   [also: M]
+  c_give("medal_plant_book",1);   -- 植物图鉴
+  c_give("medal_spacetime_pond",1);   -- 虚空钓鱼池   [also: K]
+  c_give("medal_tentaclespike",1);   -- 活性触手尖刺
+  c_give("medium_multivariate_certificate",1);   -- 中级融合勋章
+  c_give("merm_certificate",1);   -- 鱼人勋章
+  c_give("meteor_staff",1);   -- 流星法杖   [also: M]
+  c_give("monster_book",1);   -- 怪物图鉴
+  c_give("multivariate_certificate",1);   -- 融合勋章
+  c_give("naughty_certificate",1);   -- 淘气勋章   [also: Q]
+  c_give("ommateum_certificate",1);   -- 复眼勋章   [also: Q]
+  c_give("sanityrock_fragment",1);   -- 方尖碑碎片
+  c_give("sanityrock_mace",1);   -- 方尖锏   [also: M,P,O]
+  c_give("silence_certificate",1);   -- 沉默勋章   [also: Q]
+  c_give("spider_certificate",1);   -- 蜘蛛勋章
+  c_give("tentacle_certificate",1);   -- 触手勋章   [also: Q]
+  c_give("tentaclespike",1);   -- 触手尖刺(原版)
+  c_give("trap_bat",1);   -- 蝙蝠陷阱
+  c_give("treadwater_certificate",1);   -- 踏水勋章   [also: Q]
+  c_give("unsolved_book",1);   -- 未解之谜
+
+【G】冰与火之歌 (A Song of Ice and Fire / Seasonal)  (9)
+----------------------------------------------------------------------
+  c_give("armor_blue_crystal",1);   -- 蓝晶甲   [also: P,E]
+  c_give("armor_medal_obsidian",1);   -- 红晶甲   [also: P,E]
+  c_give("bathingfire_certificate",1);   -- 浴火勋章   [also: Q]
+  c_give("lavaeel",1);   -- 熔岩鳗鱼   [also: K]
+  c_give("medal_blue_obsidian",1);   -- 蓝晶
+  c_give("medal_coldfirepit_obsidian",1);   -- 蓝晶火坑
+  c_give("medal_firepit_obsidian",1);   -- 红晶火坑
+  c_give("medal_ice_machine",1);   -- 蓝晶制冰机
+  c_give("medal_obsidian",1);   -- 红晶
+
+【H】灵魂救赎 (Soul Redemption)  (7)
+----------------------------------------------------------------------
+  c_give("bottled_soul",1);   -- 瓶装灵魂
+  c_give("devour_soul_certificate",1);   -- 噬灵勋章
+  c_give("krampus_soul",1);   -- 坎普斯之灵
+  c_give("large_devour_soul_certificate",1);   -- 噬空勋章   [also: Q]
+  c_give("medal_rage_krampus",1);   -- 暗夜坎普斯   [also: P]
+  c_give("medium_devour_soul_certificate",1);   -- 噬魂勋章
+  c_give("rage_krampus_soul",1);   -- 黑暗灵魂
+
+【I】童心未泯 (Childlike Innocence)  (12)
+----------------------------------------------------------------------
+  c_give("childishness_certificate",1);   -- 童心勋章
+  c_give("childlike_certificate",1);   -- 童真勋章   [also: Q]
+  c_give("medal_ammo_box",1);   -- 弹药盒
+  c_give("medal_childishness_chest",1);   -- 童心箱   [also: M]
+  c_give("medal_resonator_item",1);   -- 宝藏探测仪
+  c_give("medal_toy_chest",1);   -- 玩具箱
+  c_give("medalslingshotammo_devoursoul",1);   -- 噬魂弹
+  c_give("medalslingshotammo_sandspike",1);   -- 沙刺弹
+  c_give("medalslingshotammo_sanityrock",1);   -- 方尖弹
+  c_give("medalslingshotammo_spines",1);   -- 尖刺弹
+  c_give("medalslingshotammo_taunt",1);   -- 痰蛋弹
+  c_give("medalslingshotammo_water",1);   -- 落水弹
+
+【J】凋零之蜂 (The Withered Bee)  (11)
+----------------------------------------------------------------------
+  c_give("bee_king_certificate",1);   -- 蜂王勋章   [also: P,Q]
+  c_give("medal_bee",1);   -- 育王蜂
+  c_give("medal_bee_larva",1);   -- 育王蜂种
+  c_give("medal_beebox",1);   -- 育王蜂箱   [also: M]
+  c_give("medal_beeguard",1);   -- 堕落之蜂   [also: P]
+  c_give("medal_beequeen",1);   -- 凋零之蜂   [also: P]
+  c_give("medal_beequeenhive",1);   -- 蔷薇血池
+  c_give("medal_beequeenhivegrown",1);   -- 凋零蜂巢
+  c_give("medal_rose_terrace",1);   -- 蔷薇花台
+  c_give("medal_withered_heart",1);   -- 凋零之心
+  c_give("medal_withered_royaljelly",1);   -- 凋零蜂王浆
+
+【K】渔翁之利 (The Fisherman's Profit)  (12)
+----------------------------------------------------------------------
+  c_give("largefishing_certificate",1);   -- 渔翁勋章   [also: Q]
+  c_give("medal_chum",1);   -- 特制鱼食   [also: I]
+  c_give("medal_fishingrod",1);   -- 玻璃钓竿   [also: M]
+  c_give("medal_losswetpouch",1);   -- 遗失塑料袋
+  c_give("medal_seapond",1);   -- 船上钓鱼池   [also: M]
+  c_give("medal_treasure",1);   -- 神秘土堆   [also: I]
+  c_give("medal_treasure_map",1);   -- 藏宝图   [also: I]
+  c_give("medal_treasure_map_scraps1",1);   -- 藏宝图碎片·日出   [also: I]
+  c_give("medal_treasure_map_scraps2",1);   -- 藏宝图碎片·黄昏   [also: I]
+  c_give("medal_treasure_map_scraps3",1);   -- 藏宝图碎片·夜晚   [also: I]
+  c_give("mediumfishing_certificate",1);   -- 垂钓勋章
+  c_give("smallfishing_certificate",1);   -- 钓鱼勋章
+
+【L】时空之旅 (Journey Through Time and Space)  (25)
+----------------------------------------------------------------------
+  c_give("armor_medal_space_time",1);   -- 时空晶甲   [also: P,E]
+  c_give("devour_staff",1);   -- 吞噬法杖   [also: M]
+  c_give("medal_dustmeringue",1);   -- 琥珀灵石
+  c_give("medal_dustmoth",1);   -- 时空尘蛾
+  c_give("medal_dustmothden",1);   -- 时空尘蛾窝   [also: M]
+  c_give("medal_dustmothden_base",1);   -- 尘蛾巢台
+  c_give("medal_gestalt",1);   -- 时空虚影   [also: P]
+  c_give("medal_krampus_chest_item",1);   -- 坎普斯宝匣   [also: M,E]
+  c_give("medal_space_gem",1);   -- 时空宝石
+  c_give("medal_space_staff",1);   -- 时空法杖   [also: M]
+  c_give("medal_spacetime_chest",1);   -- 时空宝箱
+  c_give("medal_spacetime_crystalball",1);   -- 预言水晶球   [also: M]
+  c_give("medal_spacetime_devourer",1);   -- 时空吞噬者
+  c_give("medal_spacetime_glass",1);   -- 时空晶矿   [also: P]
+  c_give("medal_spacetime_lingshi",1);   -- 时空灵石
+  c_give("medal_spacetime_potion",1);   -- 改命药水
+  c_give("medal_spacetime_runes",1);   -- 时空符文
+  c_give("medal_spacetime_snacks",1);   -- 时空零食
+  c_give("medal_spacetime_snacks_packet",1);   -- 零食包装袋
+  c_give("medal_spacetime_spark",1);   -- 时空乱流   [also: P]
+  c_give("medal_spacetime_treasure",1);   -- 时空宝藏
+  c_give("medal_time_slider",1);   -- 时空碎片
+  c_give("space_certificate",1);   -- 空间勋章
+  c_give("space_time_certificate",1);   -- 时空勋章   [also: Q]
+  c_give("speed_certificate",1);   -- 速度勋章
+
+【M】风花雪月 (Wind, Flower, Snow, Moon)  (2)
+----------------------------------------------------------------------
+  c_give("medal_skin_coupon",1);   -- 皮肤券   [also: N]
+  c_give("medal_skin_staff",1);   -- 风花雪月
+
+【N】天道酬勤 (Heaven Rewards the Diligent)  (8)
+----------------------------------------------------------------------
+  c_give("medal_diligence_token",1);   -- 酬勤令
+  c_give("medal_gift_fruit",1);   -- 包果
+  c_give("medal_gift_fruit_oversized",1);   -- 巨型包果
+  c_give("medal_gift_fruit_seed",1);   -- 包果种子
+  c_give("medal_loss_treasure_map",1);   -- 遗失藏宝图
+  c_give("medal_monster_symbol",1);   -- 暗影挑战符
+  c_give("medal_pay_tribute_box",1);   -- 奉纳盒
+  c_give("medal_tribute_symbol",1);   -- 奉纳符
+
+【O】暗影魔法 (Shadow Magic)  (4)
+----------------------------------------------------------------------
+  c_give("medal_shadow_magic_stone",1);   -- 暗影魔法石
+  c_give("medal_shadow_tool",1);   -- 暗影魔法工具
+  c_give("medal_shadowthrall_screamer",1);   -- 驱光遗骸   [also: P]
+  c_give("shadowmagic_certificate",1);   -- 暗影魔法勋章
+
+【P】混沌领域 (Chaos Domain)  (1)
+----------------------------------------------------------------------
+  c_give("punchingbag_chaos",1);   -- 混沌拳击袋
+
+【Q】本源之树 (The Origin Tree)  (4)
+----------------------------------------------------------------------
+  c_give("medal_origin_essence",1);   -- 本源精华
+  c_give("medal_origin_small_tree",1);   -- 本源小树
+  c_give("medal_origin_tree",1);   -- 本源之树
+  c_give("origin_certificate",1);   -- 本源勋章
+

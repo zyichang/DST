@@ -1,0 +1,11 @@
+c_give("transplant_certificate",1);
+c_give("childlike_certificate",1);
+c_give("harvest_certificate",1);
+c_give("handy_certificate",1);
+c_give("shadowmagic_certificate",1);
+c_give("inherit_certificate",1);
+c_give("treadwater_certificate",1);
+c_give("ommateum_certificate",1);
+c_give("space_certificate",1);
+c_give("valkyrie_certificate",1);
+c_give("justice_certificate",1);
