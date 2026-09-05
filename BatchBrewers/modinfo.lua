@@ -1,5 +1,5 @@
 name = "Batch Brewers"
-version = "1.2.0"
+version = "1.2.1"
 
 -- Built from `version` so the number in the description can never drift.
 description = "Batch Brewers  v" .. version .. [[
@@ -27,6 +27,8 @@ nothing at all - they will not throw errors.
 
 CHANGELOG
 
+v1.2.1  Redrew the mod icon: filled vessels on a wooden badge, replacing the
+        old thin outline art.
 v1.2.0  Added a farm conversion: 1 Large Chicken Egg -> 4 Chicken Eggs, at the
         Alchemy Engine, listed under Gardening and Cooking.
 v1.1.4  Fixed long recipes yielding only one item. The batch count was kept on
